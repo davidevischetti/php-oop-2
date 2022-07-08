@@ -22,7 +22,7 @@
             if($this->discount == 20) {
                 return '-20%';
             } else {
-                return '';
+                return '0';
             }
         }
 
