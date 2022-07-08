@@ -28,6 +28,4 @@
     $card1_check = $card1->checkCard();
     $card2_check = $card2->checkCard();
 
-    var_dump($card1_check);
-    var_dump($card2_check);
 ?>

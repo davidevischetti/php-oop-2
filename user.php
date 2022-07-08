@@ -2,7 +2,7 @@
     class User {
         public $name;
         public $registration;
-        public $discunt;
+        public $discount;
 
         function __construct($_name, $_registration)
         {
@@ -42,5 +42,10 @@
     $user2->discount = $user2 -> getDiscount();
     $user3->discount = $user3 -> getDiscount();
     $user4->discount = $user4 -> getDiscount();
+
+    $user_arr[] = $user1;
+    $user_arr[] = $user2;
+    $user_arr[] = $user3;
+    $user_arr[] = $user4;
 
 ?>

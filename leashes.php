@@ -20,7 +20,4 @@
     $product_leashes1 = new Leashes('17$', $user4->discount, 32, '5m', 'nylon', false);
     $product_leashes2 = new Leashes('45$', $user2->discount, 4, '2m', 'pelle', false);
 
-    var_dump($product_leashes1);
-    var_dump($product_leashes2);
-
 ?>

@@ -17,6 +17,4 @@
 
     $product1 = new Product('100$', $user1->discount , 5);
 
-    var_dump($product1);
-
 ?>

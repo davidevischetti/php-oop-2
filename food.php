@@ -18,7 +18,4 @@
     $product_food1 = new Food('10$', $user1->discount, 10, 'carne in scatola', 'cane');
     $product_food2 = new Food('15$', $user3->discount, 6, 'croccantini', 'gatto');
 
-    var_dump($product_food1);
-    var_dump($product_food2);
-
 ?>
