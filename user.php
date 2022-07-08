@@ -39,8 +39,8 @@
     $user4 -> setDiscount($user4 -> registration);
 
     $user1->discount = $user1 -> getDiscount();
-    $user2->discount = $user1 -> getDiscount();
-    $user3->discount = $user1 -> getDiscount();
-    $user4->discount = $user1 -> getDiscount();
+    $user2->discount = $user2 -> getDiscount();
+    $user3->discount = $user3 -> getDiscount();
+    $user4->discount = $user4 -> getDiscount();
 
 ?>
